@@ -44,7 +44,7 @@ Siga os passos abaixo para executar o projeto localmente:
     cd projeto-web-cursos
     ```
 3. Abra o arquivo **index.html** no navegador para visualizar a página principal.
-4. As páginas de cursos podem ser acessadas pelos links "Saiba mais" na landing page ou diretamente por meio dos arquivos **design.html**, **programacao.html**, e **audiovisual.html**.
+4. As páginas de cursos podem ser acessadas pelos links "Saiba mais" na landing page ou diretamente por meio dos arquivos **design.html**, **programacao.html**, e **marketing.html**.
 
 ## Autor
 
