@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Inscrição - Tio Meio Rico</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="bg-primary text-white text-center py-4">
+      <div class="container">
+        <h1>Inscreva-se no Curso</h1>
+        <p>Preencha o formulário abaixo para garantir sua vaga</p>
+      </div>
+
+      <div class="text-center mt-5"></div>
+      <a href="../index.html" class="btn btn-secondary">
+        Voltar à Página Principal
+      </a>
+    </header>
+
+    <section class="container my-5">
+      <form>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="nome" class="form-label">Nome</label>
+            <input
+              type="text"
+              class="form-control"
+              id="nome"
+              placeholder="Digite seu nome"
+              required
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="sobrenome" class="form-label">Sobrenome</label>
+            <input
+              type="text"
+              class="form-control"
+              id="sobrenome"
+              placeholder="Digite seu sobrenome"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="endereco" class="form-label">Endereço Completo</label>
+          <input
+            type="text"
+            class="form-control"
+            id="endereco"
+            placeholder="Rua, número, bairro"
+            required
+          />
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-md-4">
+            <label for="cep" class="form-label">CEP</label>
+            <input
+              type="text"
+              class="form-control"
+              id="cep"
+              placeholder="Digite seu CEP"
+              required
+            />
+          </div>
+          <div class="col-md-4">
+            <label for="estado" class="form-label">Estado</label>
+            <input
+              type="text"
+              class="form-control"
+              id="estado"
+              placeholder="Digite seu estado"
+              required
+            />
+          </div>
+          <div class="col-md-4">
+            <label for="pais" class="form-label">País</label>
+            <input
+              type="text"
+              class="form-control"
+              id="pais"
+              placeholder="Digite seu país"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="email" class="form-label">E-mail</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Digite seu e-mail"
+              required
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="telefone" class="form-label">Telefone</label>
+            <input
+              type="text"
+              class="form-control"
+              id="telefone"
+              placeholder="(XX) XXXX-XXXX"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="usuario" class="form-label">Usuário</label>
+            <input
+              type="text"
+              class="form-control"
+              id="usuario"
+              placeholder="Crie um nome de usuário"
+              required
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="senha" class="form-label">Senha</label>
+            <input
+              type="password"
+              class="form-control"
+              id="senha"
+              placeholder="Crie uma senha"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="curso" class="form-label">Curso</label>
+          <select class="form-select" id="curso" required>
+            <option selected disabled>Escolha um curso...</option>
+            <option value="programacao">Curso de Programação</option>
+            <option value="design">Curso de Design</option>
+            <option value="marketing">Curso de Marketing</option>
+            <option value="software">Curso de Software</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label for="pagamento" class="form-label">Forma de Pagamento</label>
+          <select class="form-select" id="pagamento" required>
+            <option selected disabled>Escolha a forma de pagamento...</option>
+            <option value="cartao">Cartão de Crédito</option>
+            <option value="boleto">Boleto Bancário</option>
+            <option value="pix">PIX</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label for="idade" class="form-label">Idade</label>
+          <input
+            type="number"
+            class="form-control"
+            id="idade"
+            placeholder="Digite sua idade"
+            required
+          />
+        </div>
+
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary">
+            Enviar Inscrição
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2024 Tio Meio Rico. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
