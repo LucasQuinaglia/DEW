@@ -1,4 +1,4 @@
-<h1>Projeto de Desenvolvimento Web - Página de Cursos</h1>
+    <h1>Projeto de Desenvolvimento Web - Página de Cursos</h1>
 
     <p>Este repositório contém o projeto de uma página web para a venda de cursos online, desenvolvido como parte da disciplina de <strong>Desenvolvimento Web</strong> na minha faculdade. O projeto tem como objetivo criar uma <strong>landing page</strong> e páginas específicas para cursos, seguindo boas práticas de desenvolvimento com <strong>HTML</strong>, <strong>CSS</strong>, e o framework <strong>Bootstrap</strong>.</p>
 
@@ -30,19 +30,18 @@
     <p>O projeto segue uma estrutura simples de diretórios:</p>
     <pre>
 
-/
-├── index.html # Página principal (landing page)
-├── cursos/
-│ ├── design.html # Página do curso de Design
-│ ├── programacao.html # Página do curso de Programação
-│ └── audiovisual.html # Página do curso de Audiovisual
-├── formulario.html # Página do formulário de inscrição
-├── assets/ # Arquivos de mídia (imagens, etc.)
-│ └── css/
-│ └── styles.css # Arquivo CSS customizado (se necessário)
-└── README.md # Arquivo README com as instruções
+        ├── index.html # Página principal (landing page)
+        ├── cursos/
+        │ ├── design.html # Página do curso de Design
+        │ ├── programacao.html # Página do curso de Programação
+        │ └── audiovisual.html # Página do curso de Audiovisual
+        ├── formulario.html # Página do formulário de inscrição
+        ├── assets/ # Arquivos de mídia (imagens, etc.)
+        │ └── css/
+        │ └── styles.css # Arquivo CSS customizado (se necessário)
+        └── README.md # Arquivo README com as instruções
+    </pre>
 
-</pre>
 
     <h2>Como Executar</h2>
     <ol>
