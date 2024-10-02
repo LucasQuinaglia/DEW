@@ -54,10 +54,3 @@ Desenvolvido por **Lucas Hoepers Quinaglia**
 
 [![Linkedin Badge](https://img.shields.io/badge/-Lucas-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucas-hoepers-quinaglia-365b93238/)](https://www.linkedin.com/in/lucas-hoepers-quinaglia-365b93238/)
 [![Gmail Badge](https://img.shields.io/badge/-lucas.hoepers.quinaglia@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:lucas.hoepers.quinaglia@gmail.com)](mailto:lucas.hoepers.quinaglia@gmail.com)
-
-## Agradecimentos
-
-Este projeto foi inspirado no trabalho de **Washington Muniz**, confira suas redes sociais:
-
-[![Linkedin Badge](https://img.shields.io/badge/-Washington-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/juniorwmr/)](https://www.linkedin.com/in/juniorwmr/)
-[![Gmail Badge](https://img.shields.io/badge/-juniorwmr@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:juniorwmr@gmail.com)](mailto:juniorwmr@gmail.com)
